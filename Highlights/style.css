@@ -1,0 +1,372 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(30, 26, 21);
+}
+#upper{
+    width: 100%;
+    height: 9%;
+    background-color: black;
+    padding: 10px ,10px;
+}
+#main h1{
+    font-size: 50px;
+    color: rgb(249, 249, 252);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#down{
+    transition: cubic-bezier(0.19, 1, 0.22, 1)4s;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    height: 91%;
+    width: 100%;
+    background-color: rgba(211, 198, 198, 0);
+}
+ #d1{
+    position: absolute;
+    left: 2%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScTIxHkruu3vegcCamSUbHk4N0rtPv4mA95w&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    
+}
+#d2{
+    position: absolute;
+    left: 16%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFjC43E_9kP2vjNoVY27i2Z1dLCF7Bv-CJFA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+#d3{
+    position: absolute;
+    left: 30%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeFXjkQpPe4tOczCsQBWt6ZSbl3G3mAbkkQg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d4{
+    position: absolute;
+    left: 44%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTseBRIotGlqZuhiau3LhlFKXvdtlbgakWcTA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d5{
+    position: absolute;
+    left: 58%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUUwIDEXycNw2hi2kmnsH1t2LFZu3XEJt63A&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d6{
+    position: absolute;
+    left: 72%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevFWCu3vXKQH1iX_5Yjpki6dxsTAbv3vPHA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d7{
+    position: absolute;
+    left: 86%;
+    top: 12%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbemcsf62mPQCq4TEJcBLVEx8OHFfogIQG6Q&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d8{
+    position: absolute;
+    left: 2%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0DNiyTcO_yUQrWH6xr6omZhjVu5l6RO-DrA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    
+}
+#d9{
+    position: absolute;
+    left: 16%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf6ZN5aCBkSTdieuH8_VfcUd2D5mWB2SDaDQ&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d10{
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg8Me_stvg4rHQF2PbtZSBpkwPjeNOLgyMvrRrYhtl5R7ozT-aFUv2NjbOlXUjR1fEyxk&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d11{
+    position: absolute;
+    left: 44%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMDFZzfQFUbcb-TeAAr7tRNcDt_GXcB3q8I7xOVP8rhAfX2Tx9EJyiapZJemDeNZdPW4&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d12{
+    position: absolute;
+    left: 58%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe-uzYb12DqRNQ6n5_ZW4TtZJcK4azaVZc5Q&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d13{
+    position: absolute;
+    left: 72%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaPZRmVrKUazogoFZJ_8RbyMZCUeGnT0zJw&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d14{
+    position: absolute;
+    left: 86%;
+    top: 35%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdmHR8wTt0puLnjVHj1vXJtkbYKi_hGtSKUbewkodNmG2GkPZU-s_KEZnRdrpTyMFIko0&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d15{
+    position: absolute;
+    left: 2%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbntPCswRkSGTRnLOMGkIUZFaMkLs0oa9izQ&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d16{
+    position: absolute;
+    left: 16%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2FEu7RFRmu8DBnukdkJ_BhWkmOLHpIdsSEA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d17{
+    position: absolute;
+    left: 30%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://resources.pulse.icc-cricket.com/ICC/photo/2021/11/03/a271697e-4cee-4847-8318-3c6b5fed52f9/6YCr2FSL.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#d18{
+    position: absolute;
+    left: 44%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Kcrz-GI4TaoRFhhHoeBiuHXb6iT1DqbkGg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d19{
+    position: absolute;
+    left: 58%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT___yfKlR1mwL2dKrK9nsja6r03qdtOHPi4iRfzTSCl48cWeryZp7-MwMwV_SiXyyMuoE&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d20{
+    position: absolute;
+    left: 72%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbsDcVLHtiCsnP5A5X4Mo-1UXlBsJGNgjxZg&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#d21{
+    position: absolute;
+    left: 86%;
+    top: 58%;
+    width: 175px;
+    height: 125px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFjC43E_9kP2vjNoVY27i2Z1dLCF7Bv-CJFA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+#down h1{
+    position: absolute;
+    bottom: 14%;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+#down button{
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    position: absolute;
+    bottom: 5%;
+    font-size: 30px;
+}
+#d1:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d2:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d3:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d4:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d5:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d6:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d7:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d8:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d9:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d10:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d11:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d12:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d13:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d14:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d15:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d16:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d17:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d18:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d19:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d20:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#d21:hover{
+    transform: scale(1.4);
+    z-index: 9;
+    transition-duration: 1s;
+}
+#down button:hover{
+    transform: scale(1.2);
+    transition-duration: 3s;
+    background-color: bisque;
+}
+
+   
